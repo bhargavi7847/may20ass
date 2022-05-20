@@ -1,0 +1,14 @@
+class Solution:
+    def singleNumber(self, l):
+        sum=0
+        for i in l:
+            sum=sum^i
+        return sum
+        
+OUTPUT:
+Your input
+[2,2,1]
+Output
+1
+Expected
+1
